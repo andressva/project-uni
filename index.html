@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Marketplace</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="rightHeader">
+      <img class="logo" width="50" src="./assets/logo.svg" alt="Marketplace">
+    </div>
+    <div class="leftHeader">
+      <ul class="nav">
+        <li class="navItem">
+          <span>Cuenta</span>
+          <img width="30" src="./assets/user.svg" alt="cuenta">
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- HEADER END -->
+
+  <!-- CONTENT -->
+  <main class="container">
+    <section class="leftContent">
+      <h3 class="subtitle">Registro de Producto.</h3>
+      <form class="registerProdForm">
+        <div class="formItem">
+          <label class="formLabel" for="name">Nombre:</label>
+          <input class="formInput" type="text" name="name" id="name">
+        </div>
+        <div class="formItemDuplex">
+          <div class="formItem">
+            <label class="formLabel" for="price">Precio:</label>
+            <input class="formInput" type="number" name="price" id="price">
+          </div>
+          <div class="formItem">
+            <label class="formLabel" for="category">Categoria:</label>
+            <input class="formInput" type="text" name="category" id="category">
+          </div>
+        </div>
+        <div class="formItem">
+          <label class="formLabel" for="description">Descripcion:</label>
+          <textarea class="formInput" name="description" id="description" cols="30" rows="10"></textarea>
+        </div>
+        <div class="formItem">
+          <label class="formLabel" for="description">Imagenes/Fotos:</label>
+          <input  type="file" name="photos" id="photos">
+        </div>
+      </form>
+    </section>
+    <section class="rightContent">
+      <img width="600" src="./assets/access.svg" alt="accesorios">
+    </section>
+  </main>
+  <!-- CONTENT END -->
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Marketplace</p>
+  </footer>
+  <!-- FOOTER END -->
+
+</body>
+</html>

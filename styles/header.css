@@ -1,0 +1,17 @@
+.header{
+  display: flex;
+  max-height: 130px;
+  border-bottom: 1px solid #F1F1F1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.nav .navItem{
+  display: flex;
+  align-items: center;
+}
+
+.nav .navItem span{
+  margin-right: 10px;
+}
